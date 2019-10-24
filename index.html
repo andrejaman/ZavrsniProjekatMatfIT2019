@@ -1,0 +1,73 @@
+<?php
+  session_start();
+ ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!--LOADER -->
+  <link rel="stylesheet" type="text/css" href="css/loader.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="javascript/pace.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+
+  <title>ProjekatX</title>
+<style>
+
+</style>
+
+
+
+
+</head>
+
+<body>
+
+  <div id="preloader">
+      <div class="p">LOADING</div>
+  </div>
+
+  <script>
+  paceOptions = {
+  ajax: true,
+  document: true,
+  eventLag: false
+  };
+
+  Pace.on('done', function() {
+  $('.p').delay(80000).animate({top: '30%', opacity: '0'}, 5000, $.bez([0.19,1,0.22,1]));
+
+
+  $('#preloader').delay(500).animate({top: '-100%'}, 5000, $.bez([0.19,1,0.22,1]));
+
+window.location.href = "index.php";
+  });
+
+  </script>
+
+
+
+
+
+
+
+
+</body>
+  <script src="script.js"></script>
+</html>
