@@ -176,7 +176,7 @@ function switchVisible2() {
     <section class="opis1">
     <div class="sreten">
         <h1 id="sreten1">Sreten Jovanović <span onclick="switchVisible()">Klikni za detalje.</span></h1>
-        <h1>Zoran Stojković<span onclick="switchVisible1()">Klikni za detalje.</span></h1>
+        <h1>Zoran Spasić<span onclick="switchVisible1()">Klikni za detalje.</span></h1>
         <h1>Andreja Milutinović<span onclick="switchVisible2()">Klikni za detalje.</span></h1>
         <div id="sreten">
         <p><br />
@@ -195,7 +195,7 @@ function switchVisible2() {
         <div class="zoran">
         <div id="zoran">
         <p><br />
-          Ime i prezime : Zoran Stojković<br />
+          Ime i prezime : Zoran Spasić<br />
           Datum rodjenja : xx.xx.xxxx.<br />
           Zanimanje : Lorem ipsum<br />
           E-mail : example@gmail.com<br />
