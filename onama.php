@@ -196,10 +196,10 @@ function switchVisible2() {
         <div id="zoran">
         <p><br />
           Ime i prezime : Zoran Spasić<br />
-          Datum rodjenja : xx.xx.xxxx.<br />
-          Zanimanje : Lorem ipsum<br />
-          E-mail : example@gmail.com<br />
-          Telefon : xxx/xxx-xx-xx
+          Datum rodjenja : 15.06.1965.<br />
+          Zanimanje : inženjer elektronike<br />
+          E-mail : zspasicucenik@gmail.com<br />
+          Telefon : 063/238-686
         </p>
         <aside>
           <img src="img/zoki.jpg"/>
@@ -211,10 +211,10 @@ function switchVisible2() {
         <div id="andreja">
         <p><br />
           Ime i prezime : Andreja Milutinović<br />
-          Datum rodjenja : xx.xx.xxxx.<br />
-          Zanimanje : Lorem ipsum<br />
-          E-mail : example@gmail.com<br />
-          Telefon : xxx/xxx-xx-xx
+          Datum rodjenja : 16.12.1983.<br />
+          Zanimanje : saobraćajni inženjer<br />
+          E-mail : andrejaman@gmail.com<br />
+          Telefon : 063/880-10-13
         </p>
         <aside>
           <img src="img/programer.jpg"/>
